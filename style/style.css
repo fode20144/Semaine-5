@@ -1,18 +1,29 @@
 body
 {
-    background-image : url("../images/dark_embroidery.png");
     color: white;
     list-style-type : square;
     padding : 5px;
 }
 
-header h1
+header
 {
     text-align : center;
+    background-image : url("../images/dark_embroidery.png");
 }
 
 h2
 {
     text-align : center;
     color: green;
+}
+
+main
+{
+    background-image : url("../images/fresh_snow.png");
+    
+}
+
+footer
+{
+    background-image : url("../images/stardust.png");
 }
