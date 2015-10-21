@@ -19,11 +19,12 @@ h2
 
 main
 {
-    background-image : url("../images/fresh_snow.png");
     
+    background-image : url("../images/stardust.png");
 }
 
 footer
 {
-    background-image : url("../images/stardust.png");
+    background-image : url("../images/fresh_snow.png");
+    color: black;
 }
