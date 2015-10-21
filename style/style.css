@@ -9,7 +9,6 @@ header
 {
     text-align : center;
     background-image : url("../images/dark_embroidery.png");
-    width : 800px;
 }
 
 
@@ -17,6 +16,14 @@ h2
 {
     text-align : center;
     color: green;
+}
+
+.container
+{
+    width : 100%;
+    max-width : 960px;
+    padding : 10px;
+    margin : 15px;
 }
 
 main
