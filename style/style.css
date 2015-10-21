@@ -9,6 +9,14 @@ header
 {
     text-align : center;
     background-image : url("../images/dark_embroidery.png");
+    width : 800px;
+}
+
+header img
+{
+    position : absolute;
+    top : 5px;
+    right : 5px;
 }
 
 h2
