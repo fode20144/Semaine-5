@@ -60,21 +60,5 @@ section article h2
 	color: purple;
 }
 
-/* STYLE RESPONSIVE */
 
-@media screen and (max-width : 900px)
-{
-	section  aside
-	{
-		display : none;
-	}
-	header p
-	{
-		font-size : 12px;
-	}
-	section article .block
-	{
-		display : block;
-	}
-}
 
