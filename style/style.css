@@ -1,40 +1,80 @@
 body
 {
-    color: white;
-    list-style-type : square;
-    padding : 5px;
+	width : 900px;
+	background : grey;
 }
 
-header
+#corps
 {
-    text-align : center;
-    background-image : url("../images/dark_embroidery.png");
+	width : 60%;
+	background : white;
+	position : absolute;
+	left : 20%;
+	margin-top : 20px;
+	height : 600px;
+	padding : 5px;
+	border : 3px solid blue;
 }
 
-
-h2
+#corps header 
 {
-    text-align : center;
-    color: green;
+	text-align : center;
 }
 
-.container
+#corps header img
 {
-    width : 100%;
-    max-width : 960px;
-    padding : 10px;
-    margin : 15px;
+	position : absolute;
+	top : 2px;
+	right : 2px;
 }
 
-main
+section article, aside
 {
-    
-    background-image : url("../images/stardust.png");
+	display : inline-block;
+
 }
 
-footer
+section aside 
 {
-    background-image : url("../images/fresh_snow.png");
-    color: black;
-    text-align : center;
+	height : 350px;
+	width : 70px;
+	background-color : blue;
+	color: white;
 }
+
+section article
+{
+	position : absolute;
+}
+
+section article .block
+{
+	position : relative;
+	display : inline-block;
+	width : 240px;
+	vertical-align : top;
+}
+
+section article h2
+{
+	color: purple;
+}
+
+/* STYLE RESPONSIVE */
+
+@media screen and (max-width : 900px)
+{
+	section  aside
+	{
+		display : none;
+	}
+	header p
+	{
+		font-size : 12px;
+	}
+	section article .block
+	{
+		display : block;
+	}
+}
+
